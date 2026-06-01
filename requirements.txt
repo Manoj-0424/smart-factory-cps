@@ -1,0 +1,9 @@
+# Core dependencies
+simpy==4.1.1          # Discrete-event simulation
+
+# AWS IoT (only needed for live MQTT publishing — not required for dry-run demo)
+# awsiotsdk==1.21.0
+
+# Optional: data analysis / visualisation
+# pandas==2.2.2
+# matplotlib==3.9.0

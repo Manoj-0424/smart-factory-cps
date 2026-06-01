@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# AWS credentials — NEVER commit these
+config/certs/
+*.pem
+*.key
+*.crt
+
+# Data output (generated at runtime)
+data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
