@@ -58,31 +58,6 @@ Sensor data is generated using **Python + SimPy**, processed at the **edge**, st
 
 ---
 
-## 🚀 Quick Start
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/Manoj-0424/smart-factory-cps.git
-cd smart-factory-cps
-```
-
-### 2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Run the full pipeline
-```bash
-python src/main.py
-```
-
-This runs in **dry-run mode** (no AWS account needed). You will see:
-- Simulated sensor readings from 3 conveyor belts
-- Edge filtering and anomaly detection
-- Simulated MQTT publish logs
-- Cloud fault detection results with health scores and alerts
-
----
 
 ## 📁 Project Structure
 
